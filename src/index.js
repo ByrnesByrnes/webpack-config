@@ -1,14 +1,6 @@
+import {render} from 'react-dom'
 import './styles/index.scss'
-
-const life = {
-  strive: "Greatness Nigga",
-  glory: "Go for GOLD only!!"
-}
-const iCode = {
-  code: "I can CODE",
-  coder: "I can CODE even better"
-}
+import {App} from './components/App'
 
 
-console.log(life)
-console.log(iCode)
+render(<App />, document.getElementById('root'))
