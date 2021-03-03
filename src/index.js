@@ -1,3 +1,5 @@
+import './styles/index.scss'
+
 const life = {
   strive: "Greatness Nigga",
   glory: "Go for GOLD only!!"
